@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://ortgek140lc6"]
+
+[ext_resource type="Texture2D" uid="uid://faqpo3rbb32j" path="res://icon.svg" id="1_g6cc7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Player2" type="Player" parent="."]
+position = Vector2(542, 328)
+texture = ExtResource("1_g6cc7")

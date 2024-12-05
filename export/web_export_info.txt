@@ -1,0 +1,3 @@
+- Move gamedevweb.py to the folder of exports. Where's should be index.html file (I also rename project.html to index.html)
+
+- Godot project must have a different name than RUST project!!!!
