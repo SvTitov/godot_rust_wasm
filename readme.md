@@ -5,6 +5,13 @@
 .\emsdk.bat install 3.1.39 
 .\emsdk.bat activate 3.1.39 --permanent
 ```
+
+Build wasm lib
+
+`sh
+cargo +nightly build -Zbuild-std=panic_abort,std --target wasm32-unknown-unknown
+`
+
 3. Export config
    ![image](https://github.com/user-attachments/assets/53c4eb6d-e589-4937-981b-f3f841f7983f)
 
